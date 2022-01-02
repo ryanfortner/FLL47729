@@ -1,0 +1,27 @@
+site_name: FLL Team 47729
+theme:
+  name: material
+  logo: 'https://spng.pngfind.com/pngs/s/448-4483670_first-robotics-competition-frc-robotics-logo-hd-png.png'
+  favicon: 'https://spng.pngfind.com/pngs/s/448-4483670_first-robotics-competition-frc-robotics-logo-hd-png.png'
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+
+repo_name: ryanfortner/FLL47729
+repo_url: https://github.com/ryanfortner/FLL47729
+edit_uri: https://github.com/ryanfortner/FLL47729/edit/main/docs/
